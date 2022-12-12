@@ -1,13 +1,13 @@
 # LDNet: Lightweight dynamic convolution network for human pose estimation
 
 ## Introduction
-This is an official pytorch implementation of [LDNet: Lightweight dynamic convolution network for human pose estimation ](https://www.sciencedirect.com/science/article/pii/S1474034622002439).We present a lighter model compared with existing pose estimation models, called LDNet. In order to construct it, we start from a lightweight feature extraction head to reduce the number of image preprocessing parameters. Then, we employ a high-resolution parallel sub-network to predict precise keypoint heatmaps. Moreover, we propose a lightweight dynamic convolution. It can cope with changing human poses by adaptively learning different convolution parameters. Finally, to further exploit the relationship between the high-level semantic and spatial structure features for accurately locating different keypoints, we propose a keypoint refinement module based on our lightweight dynamic convolution to improve the keypoint detection and location results. 
+This is an official pytorch implementation of [LDNet: Lightweight dynamic convolution network for human pose estimation ](https://www.sciencedirect.com/science/article/pii/S1474034622002439).We present a lighter model compared with existing pose estimation models, called LDNet. In order to construct it, we start from a lightweight feature extraction head to reduce the number of parameters. Then, we employ a high-resolution parallel sub-network to predict precise keypoint heatmaps. Moreover, we propose a lightweight dynamic convolution. It can cope with changing human poses by adaptively learning different convolution parameters. Finally, to further exploit the relationship between the high-level semantic and spatial structure features for accurately locating different keypoints, we propose a keypoint refinement module based on our lightweight dynamic convolution to improve the keypoint detection and location results. 
 
 
 
 ## Network Structure
 
-![Illustrating the architecture of LDNet](https://github.com/NBU-CVMI/LDNet/blob/main/imgs/the_structure_of_LDNet.png)
+![Illustrating the architecture of LDNet](imgs/the_structure_of_LDNet.png)
 
 
 
