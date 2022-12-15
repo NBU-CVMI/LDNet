@@ -19,10 +19,10 @@ This is an official pytorch implementation of [LDNet: Lightweight dynamic convol
 ![image](imgs/result_on_coco_test_dev.png)
 
 
-### Results  on MPII val set
+### Results on MPII val set
 ![image](imgs/result_on_mpii_val.png)
 
-### Results  on CrowdPose test set
+### Results on CrowdPose test set
 
 ![image](imgs/result_on_crowdpose.png)
 
@@ -74,7 +74,7 @@ python tools/test_mpii.py
 ```
 python tools/train.py
 ```
-5、testing on COCO dataset
+5、Testing on COCO dataset
 ```
 python tools/test.py
 ```
