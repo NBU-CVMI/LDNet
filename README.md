@@ -30,7 +30,7 @@ This is an official pytorch implementation of [LDNet: Lightweight dynamic convol
 
 ## Environment
 
-We use  Pytorch on ubuntu18.04 and 1 NVIDIA GeForce 2080Ti to train our models.
+We use  Pytorch == 1.4.0 on ubuntu18.04 and 1 NVIDIA GeForce 2080Ti to train our models.
 
 ## Dataset
 ### MPII
