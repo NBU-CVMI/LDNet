@@ -32,7 +32,18 @@ This is an official pytorch implementation of [LDNet: Lightweight dynamic convol
 
 We use  Pytorch on ubuntu18.04 and 1 NVIDIA GeForce 2080Ti to train our models.
 
+## Dataset
+### MPII
+Download MPII dataset and follows following file structure.
 
+### COCO
+Download COOC dataset and follows following file structure.
+
+## Qucik start
+1、Install all packages
+```
+pip install -r requirements.txt
+```
 
 ### Citation
 If you use our code or models in your research, please cite with:
