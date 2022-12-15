@@ -35,6 +35,9 @@ We use  Pytorch on ubuntu18.04 and 1 NVIDIA GeForce 2080Ti to train our models.
 ## Dataset
 ### MPII
 Download MPII dataset and follows following file structure.
+```
+
+```
 
 ### COCO
 Download COOC dataset and follows following file structure.
@@ -43,6 +46,22 @@ Download COOC dataset and follows following file structure.
 1、Install all packages
 ```
 pip install -r requirements.txt
+```
+2、Training on MPII dataset
+```
+python tools/train_mpii.py
+```
+3、Testing on MPII dataset
+```
+python tools/test_mpii.py
+```
+4、Training on COCO dataset
+```
+python tools/train.py
+```
+5、testing on COCO dataset
+```
+python tools/test.py
 ```
 
 ### Citation
