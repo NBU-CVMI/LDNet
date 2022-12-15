@@ -34,13 +34,28 @@ We use  Pytorch on ubuntu18.04 and 1 NVIDIA GeForce 2080Ti to train our models.
 
 ## Dataset
 ### MPII
-Download MPII dataset and follows following file structure.
+Download MPII dataset and follows the file structure:
 ```
-
+LDNet_Code
+         |--- data
+                 |--- mpii
+                        |--- annot
+                        |--- images
 ```
 
 ### COCO
-Download COOC dataset and follows following file structure.
+Download COCO dataset and follows the file structure:
+```
+LDNet_Code
+         |--- data
+                 |--- coco
+                        |--- annotations
+                        |--- person_detection_results
+                        |--- images
+                                  |--- train2017
+                                  |--- val2017
+```
+
 
 ## Qucik start
 1、Install all packages
