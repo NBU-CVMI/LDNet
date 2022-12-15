@@ -39,8 +39,8 @@ Download MPII dataset and follows the file structure:
 LDNet_Code
          |--- data
                  |--- mpii
-                        |--- annot
-                        |--- images
+                         |--- annot
+                         |--- images
 ```
 
 ### COCO
@@ -49,11 +49,11 @@ Download COCO dataset and follows the file structure:
 LDNet_Code
          |--- data
                  |--- coco
-                        |--- annotations
-                        |--- person_detection_results
-                        |--- images
-                                  |--- train2017
-                                  |--- val2017
+                         |--- annotations
+                         |--- person_detection_results
+                         |--- images
+                                   |--- train2017
+                                   |--- val2017
 ```
 
 
